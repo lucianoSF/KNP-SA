@@ -1,0 +1,134 @@
+1000 5002
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_MIP_Tolerances_AbsMIPGap                1
+Found incumbent of value 0.000000 after 0.00 sec. (0.03 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 1 rows and 1 columns.
+MIP Presolve added 32 rows and 32 columns.
+Reduced MIP has 32 rows, 1031 columns, and 1094 nonzeros.
+Reduced MIP has 1000 binaries, 31 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.98 ticks)
+Probing time = 0.00 sec. (0.12 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 32 rows and 32 columns.
+MIP Presolve added 33 rows and 33 columns.
+Reduced MIP has 33 rows, 1032 columns, and 1097 nonzeros.
+Reduced MIP has 1000 binaries, 32 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.25 ticks)
+Probing time = 0.00 sec. (0.12 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.80 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000   486504.0000              --- 
+      0     0    54538.0492     1        0.0000    54538.0492        1     --- 
+*     0+    0                        54284.0000    54538.0492             0.47%
+      0     0    54522.7143     1    54284.0000       Cuts: 2        3    0.44%
+*     0+    0                        54482.0000    54522.7143             0.07%
+      0     0    54514.8425     3    54482.0000       Cuts: 2        7    0.06%
+*     0+    0                        54503.0000    54514.8425             0.02%
+      0     0        cutoff          54503.0000    54503.0000        7    0.00%
+Elapsed time = 0.02 sec. (9.67 ticks, tree = 0.01 MB, solutions = 4)
+
+Mixed integer rounding cuts applied:  1
+Zero-half cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.03 sec. (9.73 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.03 sec. (9.73 ticks)
+x7 -> 1.0
+x11 -> 1.0
+x13 -> 1.0
+x14 -> 1.0
+x24 -> 1.0
+x26 -> 1.0
+x33 -> 1.0
+x36 -> 1.0
+x38 -> 1.0
+x39 -> 1.0
+x49 -> 1.0
+x54 -> 1.0
+x61 -> 1.0
+x122 -> 1.0
+x135 -> 1.0
+x138 -> 1.0
+x147 -> 1.0
+x148 -> 1.0
+x152 -> 1.0
+x217 -> 1.0
+x237 -> 1.0
+x246 -> 1.0
+x250 -> 1.0
+x255 -> 1.0
+x270 -> 1.0
+x274 -> 1.0
+x282 -> 1.0
+x335 -> 1.0
+x348 -> 1.0
+x363 -> 1.0
+x374 -> 1.0
+x380 -> 1.0
+x383 -> 1.0
+x420 -> 1.0
+x422 -> 1.0
+x427 -> 1.0
+x447 -> 1.0
+x464 -> 1.0
+x470 -> 1.0
+x474 -> 1.0
+x477 -> 1.0
+x481 -> 1.0
+x494 -> 1.0
+x495 -> 1.0
+x540 -> 1.0
+x574 -> 1.0
+x586 -> 1.0
+x593 -> 1.0
+x599 -> 1.0
+x600 -> 1.0
+x604 -> 1.0
+x611 -> 1.0
+x613 -> 1.0
+x658 -> 1.0
+x670 -> 1.0
+x704 -> 1.0
+x709 -> 1.0
+x719 -> 1.0
+x733 -> 1.0
+x737 -> 1.0
+x738 -> 1.0
+x744 -> 1.0
+x752 -> 1.0
+x771 -> 1.0
+x776 -> 1.0
+x787 -> 1.0
+x823 -> 1.0
+x825 -> 1.0
+x831 -> 1.0
+x846 -> 1.0
+x850 -> 1.0
+x856 -> 1.0
+x887 -> 1.0
+x888 -> 1.0
+x915 -> 1.0
+x938 -> 1.0
+x946 -> 1.0
+x968 -> 1.0
+x985 -> 1.0
+x987 -> 1.0
+x988 -> 1.0
+x990 -> 1.0
+x993 -> 1.0
+FO: 54503.0
+Time:  0.07180476188659668

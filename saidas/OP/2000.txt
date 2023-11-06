@@ -1,0 +1,210 @@
+2000 10011
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_MIP_Tolerances_AbsMIPGap                1
+Found incumbent of value 0.000000 after 0.00 sec. (0.05 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 4 rows and 8 columns.
+MIP Presolve added 75 rows and 75 columns.
+Reduced MIP has 72 rows, 2067 columns, and 2210 nonzeros.
+Reduced MIP has 1992 binaries, 75 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.42 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 74 rows and 74 columns.
+MIP Presolve added 74 rows and 74 columns.
+Reduced MIP has 72 rows, 2067 columns, and 2210 nonzeros.
+Reduced MIP has 1992 binaries, 75 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (2.26 ticks)
+Probing time = 0.00 sec. (0.25 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (1.61 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000   977737.0000              --- 
+      0     0   110645.9416     1        0.0000   110645.9416        1     --- 
+*     0+    0                       110439.0000   110645.9416             0.19%
+      0     0   110628.8919     1   110439.0000       Cuts: 2        4    0.17%
+      0     0   110626.0000     1   110439.0000       Cuts: 2        7    0.17%
+*     0+    0                       110541.0000   110626.0000             0.08%
+*     0+    0                       110597.0000   110626.0000             0.03%
+*     0+    0                       110625.0000   110626.0000             0.00%
+
+Cover cuts applied:  1
+Mixed integer rounding cuts applied:  1
+Gomory fractional cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.04 sec. (23.57 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.04 sec. (23.57 ticks)
+x7 -> 1.0
+x11 -> 1.0
+x14 -> 1.0
+x24 -> 1.0
+x26 -> 1.0
+x33 -> 1.0
+x38 -> 1.0
+x39 -> 1.0
+x49 -> 1.0
+x54 -> 1.0
+x61 -> 1.0
+x122 -> 1.0
+x135 -> 1.0
+x138 -> 1.0
+x147 -> 1.0
+x148 -> 1.0
+x152 -> 1.0
+x217 -> 1.0
+x237 -> 1.0
+x246 -> 1.0
+x250 -> 1.0
+x255 -> 1.0
+x270 -> 1.0
+x274 -> 1.0
+x282 -> 1.0
+x335 -> 1.0
+x348 -> 1.0
+x363 -> 1.0
+x374 -> 1.0
+x380 -> 1.0
+x383 -> 1.0
+x420 -> 1.0
+x422 -> 1.0
+x427 -> 1.0
+x447 -> 1.0
+x464 -> 1.0
+x470 -> 1.0
+x474 -> 1.0
+x477 -> 1.0
+x481 -> 1.0
+x494 -> 1.0
+x495 -> 1.0
+x540 -> 1.0
+x574 -> 1.0
+x586 -> 1.0
+x593 -> 1.0
+x600 -> 1.0
+x604 -> 1.0
+x611 -> 1.0
+x613 -> 1.0
+x658 -> 1.0
+x670 -> 1.0
+x704 -> 1.0
+x709 -> 1.0
+x719 -> 1.0
+x733 -> 1.0
+x737 -> 1.0
+x738 -> 1.0
+x744 -> 1.0
+x752 -> 1.0
+x771 -> 1.0
+x776 -> 1.0
+x787 -> 1.0
+x823 -> 1.0
+x825 -> 1.0
+x831 -> 1.0
+x846 -> 1.0
+x850 -> 1.0
+x856 -> 1.0
+x887 -> 1.0
+x888 -> 1.0
+x915 -> 1.0
+x938 -> 1.0
+x946 -> 1.0
+x968 -> 1.0
+x987 -> 1.0
+x988 -> 1.0
+x990 -> 1.0
+x993 -> 1.0
+x1004 -> 1.0
+x1032 -> 1.0
+x1035 -> 1.0
+x1044 -> 1.0
+x1049 -> 1.0
+x1058 -> 1.0
+x1097 -> 1.0
+x1100 -> 1.0
+x1104 -> 1.0
+x1115 -> 1.0
+x1118 -> 1.0
+x1138 -> 1.0
+x1139 -> 1.0
+x1144 -> 1.0
+x1159 -> 1.0
+x1169 -> 1.0
+x1240 -> 1.0
+x1247 -> 1.0
+x1249 -> 1.0
+x1261 -> 1.0
+x1273 -> 1.0
+x1299 -> 1.0
+x1323 -> 1.0
+x1334 -> 1.0
+x1344 -> 1.0
+x1345 -> 1.0
+x1354 -> 1.0
+x1362 -> 1.0
+x1395 -> 1.0
+x1401 -> 1.0
+x1404 -> 1.0
+x1420 -> 1.0
+x1432 -> 1.0
+x1442 -> 1.0
+x1458 -> 1.0
+x1464 -> 1.0
+x1467 -> 1.0
+x1473 -> 1.0
+x1474 -> 1.0
+x1476 -> 1.0
+x1484 -> 1.0
+x1486 -> 1.0
+x1508 -> 1.0
+x1533 -> 1.0
+x1545 -> 1.0
+x1546 -> 1.0
+x1549 -> 1.0
+x1550 -> 1.0
+x1568 -> 1.0
+x1592 -> 1.0
+x1605 -> 1.0
+x1616 -> 1.0
+x1618 -> 1.0
+x1631 -> 1.0
+x1639 -> 1.0
+x1655 -> 1.0
+x1665 -> 1.0
+x1667 -> 1.0
+x1668 -> 1.0
+x1673 -> 1.0
+x1691 -> 1.0
+x1693 -> 1.0
+x1697 -> 1.0
+x1717 -> 1.0
+x1725 -> 1.0
+x1730 -> 1.0
+x1732 -> 1.0
+x1826 -> 1.0
+x1862 -> 1.0
+x1865 -> 1.0
+x1874 -> 1.0
+x1883 -> 1.0
+x1891 -> 1.0
+x1901 -> 1.0
+x1905 -> 1.0
+x1916 -> 1.0
+x1920 -> 1.0
+x1954 -> 1.0
+x1955 -> 1.0
+x1990 -> 1.0
+x1998 -> 1.0
+FO: 110625.0
+Time:  0.11287760734558105
